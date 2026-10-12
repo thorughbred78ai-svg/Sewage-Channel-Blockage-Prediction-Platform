@@ -1,6 +1,8 @@
 node_modules/
 *.log
 .DS_Store
-# 禁止提交真實事件資料／備份檔（Pages 為公開網站）
+# Pages 為公開網站：禁止提交真實事件／雨量／備份檔（templates/ 內的範本除外）
 *backup*.json
+!templates/backup_blank.json
+!templates/backup_example.json
 *events*.csv
