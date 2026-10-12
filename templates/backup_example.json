@@ -1,0 +1,4 @@
+{ "version": 2,
+  "events": [ { "date": "2026-01-15", "district": "桃園區", "road": "範例路一段", "pipeId": "EXAMPLE-001", "lat": 24.99, "lng": 121.30,
+    "type": "油脂堵塞", "cause": "範例原因", "method": "高壓沖洗", "result": "已恢復通水", "age": 20, "dia": 300, "overflow": "否", "note": "" } ],
+  "rain": [ { "date": "2026-01-14", "district": "桃園區", "mm": 12.5 } ], "plan": [] }
