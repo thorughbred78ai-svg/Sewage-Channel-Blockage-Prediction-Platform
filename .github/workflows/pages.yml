@@ -22,8 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Syntax / engine / security tests
-        run: npm test
+      - run: npm test
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
